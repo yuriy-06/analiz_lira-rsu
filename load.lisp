@@ -1,0 +1,7 @@
+(push #p"c:/lisp/analiz/" asdf:*central-registry*)
+(push #p"~/lisp/analiz/" asdf:*central-registry*)
+(push #p"c:/lisp/climp-master/" asdf:*central-registry*)
+(push #p"~/lisp/climp-master/" asdf:*central-registry*)
+(ql:quickload "analiz")
+(in-package #:analiz)
+;(analiz**)
